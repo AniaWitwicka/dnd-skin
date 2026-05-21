@@ -1,0 +1,157 @@
+/*
+  Dark Starfield — skin.css
+  Gothic dark navy skin for Scroll & Soul
+  Complements skin.json — loaded after base.css and components.css
+*/
+
+/* ── Starfield ambient glow ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 50% 30%, rgba(80, 100, 180, 0.15) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 30% at 80% 80%, rgba(100, 80, 160, 0.1) 0%, transparent 70%);
+}
+
+/* ── Panels — dark navy with rounded corners and silver border ── */
+.panel {
+  border-radius: 8px;
+  box-shadow:
+    0 0 0 1px rgba(200, 216, 240, 0.15),
+    inset 0 1px 0 rgba(200, 216, 240, 0.05);
+}
+
+.panel--alt {
+  background: #161e30;
+  border-color: rgba(200, 216, 240, 0.25);
+}
+
+/* ── Ability orbs — rounded rectangle cards ── */
+.ability-orb__frame {
+  border-radius: 12px;
+  border-color: rgba(200, 216, 240, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(200, 216, 240, 0.1),
+    inset 0 1px 0 rgba(200, 216, 240, 0.08);
+}
+
+/* ── Stat badges — chevron/pennant shape via clip-path ── */
+.stat-badge {
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  border-radius: 0;
+  border-bottom: none;
+}
+
+/* ── HP shield ── */
+.hp-shield {
+  filter: drop-shadow(0 0 16px rgba(136, 153, 204, 0.2));
+}
+
+/* ── Name banner — flat flag ribbon ── */
+.name-banner {
+  border-radius: 4px;
+  clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%);
+  background: #111827;
+  border-color: rgba(200, 216, 240, 0.3);
+}
+
+/* ── Nav bar ── */
+#nav-bar {
+  border-top: 1px solid rgba(200, 216, 240, 0.2);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.nav-item--active .nav-item__label {
+  color: #c8d8f0;
+}
+.nav-item--active .nav-item__icon {
+  color: #c8d8f0;
+  filter: drop-shadow(0 0 6px rgba(200, 216, 240, 0.5));
+}
+
+/* ── Gems — round circles, silver outline ── */
+.gem {
+  border-radius: 50%;
+  transform: none;
+  border-color: rgba(200, 216, 240, 0.4);
+}
+.gem--filled {
+  background: #8899cc;
+  border-color: #c8d8f0;
+  box-shadow: 0 0 6px rgba(136, 153, 204, 0.5);
+}
+.gem--expertise {
+  background: #c8d8f0;
+  border-color: #ffffff;
+  box-shadow: 0 0 8px rgba(200, 216, 240, 0.7);
+}
+
+/* ── Spell slots ── */
+.spell-slot--full {
+  background: #8899cc;
+  border-color: #c8d8f0;
+  box-shadow: 0 0 6px rgba(136, 153, 204, 0.4);
+  border-radius: 50%;
+}
+.spell-slot--empty {
+  background: transparent;
+  border-color: rgba(200, 216, 240, 0.25);
+  border-radius: 50%;
+}
+
+/* ── Inputs ── */
+input, textarea, select {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(200, 216, 240, 0.2);
+  color: #dde8ff;
+  border-radius: 6px;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: rgba(200, 216, 240, 0.5);
+  box-shadow: 0 0 0 2px rgba(200, 216, 240, 0.1);
+}
+
+/* ── Divider ── */
+.divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(200, 216, 240, 0.3) 20%,
+    rgba(200, 216, 240, 0.3) 80%,
+    transparent
+  );
+  height: 1px;
+  opacity: 1;
+}
+
+/* ── Modal ── */
+.modal-overlay {
+  background: rgba(10, 15, 26, 0.9);
+  backdrop-filter: blur(8px);
+}
+.modal {
+  border: 1px solid rgba(200, 216, 240, 0.25);
+  border-radius: 12px;
+  box-shadow:
+    0 0 60px rgba(0, 0, 0, 0.6),
+    0 0 120px rgba(136, 153, 204, 0.05);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 216, 240, 0.2);
+  border-radius: 2px;
+}
+
+/* ── Death saves ── */
+.death-save--failed .gem--filled {
+  background: #e05555;
+  border-color: #ff7777;
+  box-shadow: 0 0 6px rgba(224, 85, 85, 0.6);
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Dark Starfield",
+  "author": "your-name",
+  "version": "1.0.0",
+  "description": "Gothic dark starfield — deep navy with silver line-art borders, skull and heart motifs, clean minimal ornaments.",
+
+  "fonts": [
+    {
+      "family": "Cinzel Decorative",
+      "url": "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap"
+    },
+    {
+      "family": "Cinzel",
+      "url": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap"
+    }
+  ],
+
+  "variables": {
+    "--s-bg-page":            "#0d1220",
+    "--s-bg-panel":           "#111827",
+    "--s-bg-panel-alt":       "#161e30",
+    "--s-bg-nav":             "#0a0f1a",
+    "--s-bg-input":           "#111827",
+    "--s-color-accent":       "#c8d8f0",
+    "--s-color-gem":          "#8899cc",
+    "--s-color-text-primary": "#dde8ff",
+    "--s-color-text-panel":   "#dde8ff",
+    "--s-color-text-muted":   "#7888aa",
+    "--s-color-text-input":   "#dde8ff",
+    "--s-color-hp":           "#e05555",
+    "--s-color-spell":        "#8899cc",
+    "--s-color-danger":       "#e05555",
+    "--s-color-success":      "#55bb77",
+    "--s-color-border":       "#c8d8f0",
+    "--s-font-display":       "'Cinzel Decorative', serif",
+    "--s-font-ui":            "'Cinzel', serif",
+    "--s-font-body":          "'Cinzel', serif",
+    "--s-border-radius":      "8px",
+    "--s-panel-border":       "1.5px solid rgba(200, 216, 240, 0.4)",
+    "--s-orb-size":           "72px",
+    "--s-badge-size":         "60px",
+    "--s-gem-size":           "14px"
+  },
+
+  "images": {
+    "bg-page": {
+      "xs": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/bg-xs.jpg",
+      "md": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/bg-md.jpg",
+      "xl": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/bg-xl.jpg"
+    },
+    "panel-frame": {
+      "xs": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/panel-frame-xs.png",
+      "lg": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/panel-frame-lg.png"
+    },
+    "panel-frame-sm":  "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/panel-frame-sm.png",
+    "name-banner": {
+      "xs": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/name-banner-xs.png",
+      "lg": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/name-banner-lg.png"
+    },
+    "hp-shield":        "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/hp-shield.png",
+    "ability-orb":      "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/ability-orb.png",
+    "stat-badge":       "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/stat-badge.png",
+    "gem-empty":        "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/gem-empty.png",
+    "gem-filled":       "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/gem-filled.png",
+    "gem-expertise":    "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/gem-expertise.png",
+    "spell-slot-full":  "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/spell-slot-full.png",
+    "spell-slot-empty": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/spell-slot-empty.png",
+    "nav-bg":           "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/nav-bg.png",
+    "divider":          "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/divider.png",
+    "footer-ornament":  "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/footer-ornament.png",
+    "modal-frame":      "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/modal-frame.png",
+    "scroll-reveal":    "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/scroll-reveal.png"
+  }
+}
