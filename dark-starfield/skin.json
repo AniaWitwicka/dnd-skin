@@ -44,31 +44,31 @@
 
   "images": {
     "bg-page": {
-      "xs": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/bg-xs.jpg",
-      "md": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/bg-md.jpg",
-      "xl": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/bg-xl.jpg"
+      "xs": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/bg-xs.jpg",
+      "md": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/bg-md.jpg",
+      "xl": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/bg-xl.jpg"
     },
     "panel-frame": {
-      "xs": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/panel-frame-xs.png",
-      "lg": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/panel-frame-lg.png"
+      "xs": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/panel-frame-xs.png",
+      "lg": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/panel-frame-lg.png"
     },
-    "panel-frame-sm":  "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/panel-frame-sm.png",
+    "panel-frame-sm":  "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/panel-frame-sm.png",
     "name-banner": {
-      "xs": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/name-banner-xs.png",
-      "lg": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/name-banner-lg.png"
+      "xs": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/name-banner-xs.png",
+      "lg": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/name-banner-lg.png"
     },
-    "hp-shield":        "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/hp-shield.png",
-    "ability-orb":      "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/ability-orb.png",
-    "stat-badge":       "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/stat-badge.png",
-    "gem-empty":        "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/gem-empty.png",
-    "gem-filled":       "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/gem-filled.png",
-    "gem-expertise":    "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/gem-expertise.png",
-    "spell-slot-full":  "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/spell-slot-full.png",
-    "spell-slot-empty": "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/spell-slot-empty.png",
-    "nav-bg":           "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/nav-bg.png",
-    "divider":          "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/divider.png",
-    "footer-ornament":  "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/footer-ornament.png",
-    "modal-frame":      "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/modal-frame.png",
-    "scroll-reveal":    "https://raw.githubusercontent.com/AniaWitwicka/scroll-and-soul-skins/main/dark-starfield/images/scroll-reveal.png"
+    "hp-shield":        "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/hp-shield.png",
+    "ability-orb":      "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/ability-orb.png",
+    "stat-badge":       "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/stat-badge.png",
+    "gem-empty":        "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/gem-empty.png",
+    "gem-filled":       "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/gem-filled.png",
+    "gem-expertise":    "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/gem-expertise.png",
+    "spell-slot-full":  "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/spell-slot-full.png",
+    "spell-slot-empty": "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/spell-slot-empty.png",
+    "nav-bg":           "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/nav-bg.png",
+    "divider":          "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/divider.png",
+    "footer-ornament":  "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/footer-ornament.png",
+    "modal-frame":      "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/modal-frame.png",
+    "scroll-reveal":    "https://raw.githubusercontent.com/AniaWitwicka/dnd-skin/main/dark-starfield/images/scroll-reveal.png"
   }
 }
